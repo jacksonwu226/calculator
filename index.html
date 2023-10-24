@@ -4,30 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>calculator</title>
+  <link href="./styles.css" rel="stylesheet">
+  <script src="./script.js" defer></script>
 </head>
 <body>
-  <div>Calculator</div>
-asdf    <div class="btn">7</div>
-    <div class="btn">8</div>
-    <div class="btn">9</div>
-    <div class="btn">/</div>
-
-    <div class="btn">4</div>
-    <div class="btn">5</div>
-    <div class="btn">6</div>
-    <div class="btn">*</div>
-
-    <div class="btn">1</div>
-    <div class="btn">2</div>
-    <div class="btn">3</div>
-    <div class="btn">-</div>
-
-    <div class="btn">.</div>
-    <div class="btn">0</div>
-    <div class="btn">=</div>
-    <div class="btn">+</div>
-
-  </div>
-  <script src="./script.js"></script>
+  <div class="calculator">
+    <div class="output">
+      <div class="previous-operand"></div>
+      <div class="current-operand"></div>
+    </div>
+    <div class="row-1">
+      <button class="btn span-2">AC</button>
+      <button class="btn">DEL</button>
+      <button class="btn">/</button>
+    </div>
+    <div class="row-2">
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn">*</button>
+    </div>
+    <div class="row-3">
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn">+</button>
+    </div>
+    <div class="row-4">
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn">-</button>
+    </div>
+    <div class="row-5">
+      <button class="btn">.</button>
+      <button class="btn">0</button>
+      <button class="btn span-2">=</button>
+    </div>
+  </div> 
 </body>
 </html>
